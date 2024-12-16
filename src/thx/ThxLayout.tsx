@@ -21,23 +21,16 @@ export const ThxLayout = () => {
           defaultMargins
           weight="bold"
         >
-          Только тссс
+          Еще чуть-чуть
         </Typography.TitleResponsive>
         <Typography.Text tag="p" view="primary-medium" defaultMargins={false}>
-          Вы поучаствовали в очень важном исследовании, которое поможет создать
-          лучший тариф. Вы – наш герой!
-        </Typography.Text>
-        <Typography.Text tag="p" view="primary-medium" defaultMargins={false}>
-          Оформить существующую подписку Альфа-Смарт вы можете на следующем экране.
+          Оформить существующую подписку Альфа-Смарт вы можете на следующем
+          экране.
         </Typography.Text>
       </div>
 
       <div className={appSt.bottomBtn}>
-        <ButtonMobile
-          block
-          view="primary"
-          href="https://alfa.me/lsp"
-        >
+        <ButtonMobile block view="primary" href="https://alfa.me/lsp">
           Оформить подписку
         </ButtonMobile>
       </div>
